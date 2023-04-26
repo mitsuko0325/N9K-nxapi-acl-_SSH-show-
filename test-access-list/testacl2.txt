@@ -1,0 +1,4 @@
+ip access-list textnxapi2
+  10 remark testnxapi1
+  20 permit icmp any any 
+  30 permit tcp any 10.0.0.0/8 established 
